@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Thinkful Tube</title>
+    <title>Search</title>
 </head>
 <body>
-
+<div id="buttons">
+    <label> <input id="query" type="text"/><button id="search-button" disabled onclick="search()">Search</button></label>
+</div>
+<div id="search-container">
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="search.js"></script>
+<script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"></script>
 </body>
 </html>
